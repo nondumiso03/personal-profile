@@ -56,14 +56,14 @@ body {
     flex-direction: column;
     gap: 10px;
     width: 300%;
-    max-width: 200px;  /* Adjusted for better responsiveness */
+    max-width: 200px;  
     text-align: center;
 }
 
 .contact input,
 .contact select,
 .contact textarea {
-    height: 10px;  /* Set the height of the fields */
+    height: 10px;  
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
