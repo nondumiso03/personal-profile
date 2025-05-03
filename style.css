@@ -55,7 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 100%;
+    width: 300%;
     max-width: 200px;  /* Adjusted for better responsiveness */
     text-align: center;
 }
@@ -139,3 +139,34 @@ a:hover {
     text-decoration: underline;
     color: #3d3df5;
 }
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contact textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.counter {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#countDisplay {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+

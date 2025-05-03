@@ -31,18 +31,28 @@
     </section>
 
  
-    <section class="contact">
-        <h2>Contact Me</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+<section class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" action="#" method="post">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+       <p id="response"></p>
+    </form>
+</section>
+<section class="counter">
+  <h2>Counter App</h2>
+  <p>Count: <span id="countDisplay">0</span></p>
+  <button id="incrementBtn">Increment</button>
+</section>
 
 
     <footer class="footer">
@@ -51,6 +61,8 @@
             <a href="https://github.com/nondumiso03">GitHub</a>
         </nav>
     </footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
